@@ -7,4 +7,4 @@ services:
         - ALPINE_VERSION=${ALPINE_VERSION:-latest}
     restart: unless-stopped
     volumes:
-      - ./ddclient.conf:/etc/ddclient/ddclient.conf
+      - ./ddclient.conf:/etc/ddclient/ddclient.conf:ro
