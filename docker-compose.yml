@@ -1,0 +1,9 @@
+services:
+
+  ddclient:
+    build:
+      context: .
+      args:
+        - ALPINE_VERSION=${ALPINE_VERSION:-latest}
+    volumes:
+      - ./ddclient.conf:/etc/ddclient/ddclient.conf

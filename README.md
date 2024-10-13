@@ -1,16 +1,3 @@
 # ddclient-docker
 
-```
- ______________________________________ 
-/ Know how to save 5 drowning lawyers? \
-|                                      |
-| -- No?                               |
-|                                      |
-\ GOOD!                                /
- -------------------------------------- 
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-```
+Utilidad [ddclient](https://ddclient.net) en un contenedor Docker.

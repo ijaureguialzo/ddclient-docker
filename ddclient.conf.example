@@ -1,0 +1,13 @@
+# General config
+daemon=300
+
+# Router
+usev4=webv4,webv4=ipify-ipv4
+
+# Protocol
+protocol=cloudflare,
+zone=example.com,
+ttl=1,
+login=token,
+password=cloudflare_api_token_dns_edit
+example.com,subdomain.example.com
