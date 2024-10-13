@@ -9,5 +9,5 @@ protocol=cloudflare,
 zone=example.com,
 ttl=1,
 login=token,
-password=cloudflare_api_token_dns_edit
+password='cloudflare_api_token_dns_edit',
 example.com,subdomain.example.com
